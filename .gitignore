@@ -1,0 +1,22 @@
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage folder (Jest)
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo

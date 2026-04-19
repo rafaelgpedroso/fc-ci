@@ -1,0 +1,20 @@
+{
+  "name": "fc-ci",
+  "version": "1.0.0",
+  "description": "Este projeto tem como objetivo consolidar conhecimentos sobre **CI (Continuous Integration)** e **Qualidade de Código**, configurando uma pipeline completa para garantir que nenhum código seja integrado à branch `main` sem antes:",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jest": "^30.3.0"
+  }
+}
