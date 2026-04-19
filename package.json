@@ -8,13 +8,14 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "jest": "^30.3.0"
+    "jest": "^30.3.0",
+    "sonar-scanner": "^3.1.0"
   }
 }
